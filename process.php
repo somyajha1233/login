@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $data = "Email: " . $email . "\nPassword: " . $password . "\n\n";
         $filePath = "F:\sdf\php"; // Specify the full path
         file_put_contents($filePath, $data, FILE_APPEND | LOCK_EX);
-        echo "Signup successful!";
+        echo "Sign up successful!";
     } else {
         echo "Please fill in all fields.";
     }
