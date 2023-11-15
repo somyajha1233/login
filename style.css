@@ -1,0 +1,94 @@
+* {
+    font-family: Montserrat;
+}
+
+body {
+    background-color: #4d83f7;
+}
+
+#login {
+    width: 80%; /* Adjusted to a percentage for responsiveness */
+    max-width: 480px; /* Added max-width for larger screens */
+    height: auto; /* Changed to auto to adapt to content */
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 20px auto; /* Centered the form with margin */
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yo {
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 100%; /* Adjusted to a percentage for responsiveness */
+    height: 40px;
+    margin-bottom: 10px; /* Added margin for better spacing */
+}
+
+.oi {
+    text-align: left;
+    background-color: transparent;
+    color: gray;
+    border: 2px gray;
+    padding: 5px; /* Added padding for better visual appearance */
+}
+
+#btd {
+    background-color: palevioletred;
+    width: 100%; /* Adjusted to a percentage for responsiveness */
+    height: 48px;
+    border: 2px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 10px; /* Added margin for better spacing */
+}
+
+h3 {
+    font-weight: normal;
+    background-color: transparent;
+}
+
+#is {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+#social {
+    position: relative;
+    left: 20px;
+}
+
+#btd:hover {
+    background-color: rgb(235, 76, 129);
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    display: inline-block;
+}
+
+#fgt {
+    font-size: 13px;
+    text-align: center; /* Centered the text for better appearance */
+    margin-top: 10px; /* Added margin for better spacing */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    #login {
+        width: 90%;
+    }
+
+    .yo, #btd {
+        width: 100%;
+    }
+}
