@@ -13,5 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "Please fill in all fields.";
     }
+} else {
+    echo "Invalid request method.";
 }
 ?>
